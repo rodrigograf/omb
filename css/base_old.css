@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*INICIO: Elementos*/
+body {	
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0px;
+	padding:0px;
+	background:fff;
+	color:#333;
+	font-size:11x;
+	line-height:14px;	
+}
+
+a, a:visited {
+	color:#0769ca;
+	text-decoration:underline;
+}
+
+a:hover {
+	color:#043d73;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+h1 {
+	margin:10px 0 20px;
+	font-size:24px;
+	line-height:32px;
+}
+
+h2 {
+	margin:0 0 16px;
+	font-size:16px;
+	line-height:24px;
+}
+
+p {
+	color:#333;
+	font-size:11px;
+	line-height:14px;
+	margin-bottom:10px;
+}
+/*FIM: Elementos*/
+
+/*INICIO: Classes Gerais*/
+.principal {
+	width:960px;
+	margin:0 auto;
+}
+/*FIM: Classes Gerais*/
+
+/*INICIO: Cabecalho*/
+.cabecalho {
+	width:100%;
+	height:84px;
+	background:#ccc;
+	display:table;
+}
+
+.cabecalho .logo {
+	display:table-cell;
+	vertical-align:middle;
+}
+/*FIM: Cabecalho*/
+
+/*INICIO: Menu*/
+.menu {
+	width:100%;
+	height:80px;
+	margin:0 0 10px;
+	background:#ddd;
+}
+/*FIM: Menu*/
