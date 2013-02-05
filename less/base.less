@@ -46,6 +46,10 @@ h2 {
         color:@cor_clara;
         .bordas-diferentes(0, 5px, 5px, 0);
     }
+    span {
+        font-size:14px;
+        font-weight:normal;
+    }
 }
 
 h3 {
@@ -53,6 +57,10 @@ h3 {
 	font-size:14px;
 	line-height:21px;
     color:@cor_escura;
+    span {
+        font-size:12px;
+        font-weight:normal;
+    }
 }
 
 h4 {
@@ -465,6 +473,10 @@ input[type="button"], input[type="submit"], button {
             margin-right:40px;
         }
     }
+    .foto-grande {
+        max-width:354px;
+        margin:5px 0 10px;
+    }
     .fotos {
         img {
             margin:0 0 10px 8px;
@@ -513,6 +525,29 @@ input[type="button"], input[type="submit"], button {
         }
         &.google {
             background:url('../img/icones-social.png') no-repeat -40px 0px;
+        }
+    }
+    .detalhes {
+        width:240px;
+        &.esquerda {
+            float:left;
+            clear:none;
+        }
+        &.direita {
+            float:right;
+            clear:none;
+        }
+        .item {
+            display:block;
+            width:240px;
+            text-indent:10px;
+            line-height:20px;
+            border-bottom:@cor_base_clara 1px dotted;
+            .valor {
+                margin-right:10px;
+                float:right;
+                font-weight:bold;
+            }
         }
     }
 }

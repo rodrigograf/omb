@@ -5,7 +5,8 @@ a:hover{color:#055098;}
 h1,h2,h3,h4,h5{font-family:"Trebuchet MS",Helvetica,sans-serif;font-weight:bold;}
 h1{margin:10px 0 20px;font-size:24px;line-height:32px;color:#014488;}
 h2{margin:0 0 16px;font-size:16px;line-height:24px;}h2.faixa{display:inline-block;padding:2px 10px;background:#014488;color:#ffffff;-webkit-border-top-right-radius:5px;-webkit-border-bottom-right-radius:5px;-webkit-border-bottom-left-radius:0;-webkit-border-top-left-radius:0;-moz-border-radius-topright:5px;-moz-border-radius-bottomright:5px;-moz-border-radius-bottomleft:0;-moz-border-radius-topleft:0;border-top-right-radius:5px;border-bottom-right-radius:5px;border-bottom-left-radius:0;border-top-left-radius:0;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;}
-h3{margin:10px 0 0;font-size:14px;line-height:21px;color:#014488;}
+h2 span{font-size:14px;font-weight:normal;}
+h3{margin:10px 0 0;font-size:14px;line-height:21px;color:#014488;}h3 span{font-size:12px;font-weight:normal;}
 h4{margin:10px 0;font-size:12px;line-height:18px;color:#014488;}
 h5{margin:0;font-size:12px;line-height:16px;color:#014488;}
 p{color:#333333;font-size:11px;line-height:14px;margin-bottom:10px;}
@@ -55,6 +56,7 @@ input[type="button"],input[type="submit"],button{padding:5px 6px;font-size:11px;
 .paginas .metade{width:460px;}.paginas .metade:first-child{margin-right:40px;}
 .paginas .menor{width:360px;}.paginas .menor:first-child{margin-right:40px;}
 .paginas .maior{width:540px;}.paginas .maior:first-child{margin-right:40px;}
+.paginas .foto-grande{max-width:354px;margin:5px 0 10px;}
 .paginas .fotos img{margin:0 0 10px 8px;}.paginas .fotos img:first-child{margin:0 0 10px 0;}
 .paginas .localizacao{border:#014488 1px solid;border-top:none;}.paginas .localizacao .titulo{margin-top:1px;padding:5px;background:#014488;color:#ffffff;font-size:12px;cursor:pointer;}.paginas .localizacao .titulo:hover{background:#01376f;}
 .paginas .contato input[type="text"],.paginas .contato input[type="password"],.paginas .contato input[type="number"],.paginas .contato input[type="email"],.paginas .contato textarea{width:100%;margin:0 0 10px;}
@@ -62,6 +64,9 @@ input[type="button"],input[type="submit"],button{padding:5px 6px;font-size:11px;
 .paginas .icone{display:inline-block;width:20px;height:20px;margin:0 5px 2px 0;text-indent:-5000px;}.paginas .icone.facebook{background:url('../img/icones-social.png') no-repeat 0px 0px;}
 .paginas .icone.twitter{background:url('../img/icones-social.png') no-repeat -20px 0px;}
 .paginas .icone.google{background:url('../img/icones-social.png') no-repeat -40px 0px;}
+.paginas .detalhes{width:240px;}.paginas .detalhes.esquerda{float:left;clear:none;}
+.paginas .detalhes.direita{float:right;clear:none;}
+.paginas .detalhes .item{display:block;width:240px;text-indent:10px;line-height:20px;border-bottom:#dae8f4 1px dotted;}.paginas .detalhes .item .valor{margin-right:10px;float:right;font-weight:bold;}
 .destaques{height:300px;margin:0 0 15px;}.destaques .imoveis{width:636px;height:300px;background:#f2f7fb;float:left;clear:none;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;position:relative;}.destaques .imoveis h2{margin:20px 0 0;}
 .destaques .imoveis .filtros{display:block;width:200px;height:20px;font-family:"Trebuchet MS",Helvetica,sans-serif;font-size:12px;position:absolute;top:25px;right:20px;}
 .destaques .imoveis .container{height:205px;margin:20px 20px 0;overflow:hidden;}
