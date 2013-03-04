@@ -6,7 +6,7 @@
 <link href="css/reset.css" rel="stylesheet" type="text/css" />
 <link href="css/base.css" rel="stylesheet" type="text/css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<!--script type="text/javascript" src="/js/script.js"></script-->
+<script type="text/javascript" src="js/script.js"></script>
 <meta name="Description" content="Onde morar bem" />
 <meta name="author" content="Rodrigo Graf" />
 </head>
@@ -15,7 +15,7 @@
 		
 		<div class="cabecalho">
 			<div class="logo">
-				<img src="img/logo.png" alt="[nome da empresa]" border="0" />
+				<a href="index.html"><img src="img/logo.png" alt="[nome da empresa]" border="0" /></a>
 			</div>
 		</div>
 		
@@ -47,11 +47,22 @@
 			<div class="lancamentos">
 				<div class="container">
 					<h2 class="faixa">Lan&ccedil;amentos</h2>
-					<ul class="paginacao">
-						<li class="ativo"></li>
-						<li></li>
-						<li></li>
-					</ul>
+					<div class="grupo">
+						<div class="item"></div>
+					</div>
+					<div class="grupo">
+						<div class="item"></div>
+					</div>
+					<div class="grupo">
+						<div class="item"></div>
+					</div>
+					<div class="paginacao">
+						<ul>
+							<li class="ativo"></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -59,22 +70,27 @@
 		<div class="destaques">
 			<div class="imoveis">
 				<h2 class="faixa">Im&oacute;veis em Destaque</h2>
-				<div class="filtros">
-					Filtar por: <input name="filtro" type="radio" value="">Comprar <input name="filtro" type="radio" value="">Alugar
-				</div>
+				<ul class="filtro">
+					<li class="ativo">Comprar</li>
+					<li>Alugar</li>
+				</ul>
 				<div class="clear"></div>
 				<div class="container">
-					<div class="item"> <a href="#"> <img src="img/miniatura.jpg" alt="[titulo do imovel]" class="miniatura" /> <span class="tipo">Apartamento</span> <span class="tamanho">3Q/Su&iacute;te</span> <span class="bairro">Jardim Camburi</span> <span class="preco">R$ 300.000,00</span>  </a> </div>
-					<div class="item"> <a href="#"> <img src="img/miniatura.jpg" alt="[titulo do imovel]" class="miniatura" /> <span class="tipo">Apartamento</span> <span class="tamanho">3Q/Su&iacute;te</span> <span class="bairro">Jardim Camburi</span> <span class="preco">R$ 300.000,00</span>  </a> </div>
-					<div class="item"> <a href="#"> <img src="img/miniatura.jpg" alt="[titulo do imovel]" class="miniatura" /> <span class="tipo">Apartamento</span> <span class="tamanho">3Q/Su&iacute;te</span> <span class="bairro">Jardim Camburi</span> <span class="preco">R$ 300.000,00</span>  </a> </div>
-					<div class="item"> <a href="#"> <img src="img/miniatura.jpg" alt="[titulo do imovel]" class="miniatura" /> <span class="tipo">Apartamento</span> <span class="tamanho">3Q/Su&iacute;te</span> <span class="bairro">Jardim Camburi</span> <span class="preco">R$ 300.000,00</span>  </a> </div>
-					<div class="item"> <a href="#"> <img src="img/miniatura.jpg" alt="[titulo do imovel]" class="miniatura" /> <span class="tipo">Apartamento</span> <span class="tamanho">3Q/Su&iacute;te</span> <span class="bairro">Jardim Camburi</span> <span class="preco">R$ 300.000,00</span>  </a> </div>
-				</div>
-				<ul class="paginacao">
-					<li class="ativo"></li>
-					<li></li>
-					<li></li>
-				</ul>
+					<div class="grupo">
+						<div class="item"> <a href="#"> <img src="img/miniatura.jpg" alt="[titulo do imovel]" class="miniatura" /> <span class="tipo">Apartamento</span> <span class="tamanho">3Q/Su&iacute;te</span> <span class="bairro">Jardim Camburi</span> <span class="preco">R$ 300.000,00</span>  </a> </div>
+						<div class="item"> <a href="#"> <img src="img/miniatura.jpg" alt="[titulo do imovel]" class="miniatura" /> <span class="tipo">Apartamento</span> <span class="tamanho">3Q/Su&iacute;te</span> <span class="bairro">Jardim Camburi</span> <span class="preco">R$ 300.000,00</span>  </a> </div>
+						<div class="item"> <a href="#"> <img src="img/miniatura.jpg" alt="[titulo do imovel]" class="miniatura" /> <span class="tipo">Apartamento</span> <span class="tamanho">3Q/Su&iacute;te</span> <span class="bairro">Jardim Camburi</span> <span class="preco">R$ 300.000,00</span>  </a> </div>
+						<div class="item"> <a href="#"> <img src="img/miniatura.jpg" alt="[titulo do imovel]" class="miniatura" /> <span class="tipo">Apartamento</span> <span class="tamanho">3Q/Su&iacute;te</span> <span class="bairro">Jardim Camburi</span> <span class="preco">R$ 300.000,00</span>  </a> </div>
+						<div class="item"> <a href="#"> <img src="img/miniatura.jpg" alt="[titulo do imovel]" class="miniatura" /> <span class="tipo">Apartamento</span> <span class="tamanho">3Q/Su&iacute;te</span> <span class="bairro">Jardim Camburi</span> <span class="preco">R$ 300.000,00</span>  </a> </div>
+					</div>
+					<div class="paginacao">
+						<ul>
+							<li class="ativo"></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+				</div>				
 			</div>
 			<div class="noticias">
 				<h2 class="faixa">Not&iacute;cias</h2>
@@ -84,7 +100,7 @@
 				<div class="item">
 					<a href="#"><span class="data">20.out.2012</span> - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</a>
 				</div>
-				<p><a href="#">Visualizar todas as not&iacute;cias</a></p>
+				<p><a href="noticias.html">Visualizar todas as not&iacute;cias</a></p>
 			</div>
 		</div>
 		

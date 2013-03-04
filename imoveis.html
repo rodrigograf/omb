@@ -6,7 +6,7 @@
 <link href="css/reset.css" rel="stylesheet" type="text/css" />
 <link href="css/base.css" rel="stylesheet" type="text/css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<!--script type="text/javascript" src="/js/script.js"></script-->
+<script type="text/javascript" src="js/script.js"></script>
 <meta name="Description" content="Onde morar bem" />
 <meta name="author" content="Rodrigo Graf" />
 </head>
@@ -15,7 +15,7 @@
 		
 		<div class="cabecalho">
 			<div class="logo">
-				<img src="img/logo.png" alt="[nome da empresa]" border="0" />
+				<a href="index.html"><img src="img/logo.png" alt="[nome da empresa]" border="0" /></a>
 			</div>
 		</div>
 		
@@ -34,7 +34,7 @@
 		<div class="pagina-pesquisa">
 			<div class="pesquisa">
 				<div class="container">
-					<h2>Filtros: <span class="expandir">+</span></h2>
+					<h2>Filtros: <span class="expandir contrair">-</span></h2>
 					<div class="grupo">
 						<select>
 							<option>Estado</option>
@@ -43,20 +43,20 @@
 							<option>Munic&iacute;pio</option>
 						</select>
 					</div>
-					<h2>Bairros: <span class="expandir">+</span></h2>
+					<h2>Bairros: <span class="expandir contrair">-</span></h2>
 					<div class="grupo">						
 						<span class="item"><input name="" type="checkbox" value=""> Aribiri</span>
 						<span class="item"><input name="" type="checkbox" value=""> Coqueiral</span>
 						<span class="item"><input name="" type="checkbox" value=""> Ibes</span>
 						<span class="item"><input name="" type="checkbox" value=""> Praia da Costa</span>
 					</div>
-					<h2>Objetivo: <span class="expandir">+</span></h2>
+					<h2>Objetivo: <span class="expandir contrair">-</span></h2>
 					<div class="grupo">						
 						<span class="item"><input name="" type="checkbox" value=""> Aluguel</span>
 						<span class="item"><input name="" type="checkbox" value=""> Temporada</span>
 						<span class="item"><input name="" type="checkbox" value=""> Venda</span>
 					</div>
-					<h2>Tipo: <span class="expandir">+</span></h2>
+					<h2>Tipo: <span class="expandir contrair">-</span></h2>
 					<div class="grupo">						
 						<span class="item"><input name="" type="checkbox" value=""> Casa</span>
 						<span class="item"><input name="" type="checkbox" value=""> Apartamento</span>
@@ -92,19 +92,19 @@
 						</div>
 					</div>
 					
-					
-					
-					<ul class="paginacao numeros">
-						<li class="seta">&lsaquo;</li>
-						<li class="ativo">1</li>
-						<li>2</li>
-						<li>3</li>
-						<li>4</li>
-						<li>5</li>
-						<li>6</li>
-						<li>7</li>
-						<li class="seta">&rsaquo;</li>
-					</ul>
+					<div class="paginacao">
+						<ul class="paginacao numeros">
+							<li class="seta">&lsaquo;</li>
+							<li class="ativo">1</li>
+							<li>2</li>
+							<li>3</li>
+							<li>4</li>
+							<li>5</li>
+							<li>6</li>
+							<li>7</li>
+							<li class="seta">&rsaquo;</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
